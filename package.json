@@ -1,0 +1,30 @@
+{
+  "name": "@incrementlabs/website",
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "@akiolabs/app": "0.0.4",
+    "@akiolabs/ui": "0.0.4",
+    "formik": "0.11.11",
+    "gatsby": "2.0.24",
+    "gatsby-cli": "2.4.2",
+    "gatsby-plugin-compile-es6-packages": "1.0.6",
+    "gatsby-plugin-drift": "1.0.0",
+    "gatsby-plugin-facebook-pixel": "1.0.3",
+    "gatsby-plugin-facebook-sdk": "1.0.6",
+    "gatsby-plugin-google-analytics": "1.0.19",
+    "gatsby-plugin-react-helmet": "2.0.5",
+    "gatsby-plugin-react-x": "2.1.2",
+    "gatsby-react-router-scroll": "1.0.11",
+    "lodash": "4.17.5",
+    "prop-types": "15.6.0",
+    "react": "16.4.1",
+    "react-helmet": "5.2.0",
+    "serve": "9.1.0"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "serve": "serve public",
+    "start": "gatsby develop --port 9500"
+  }
+}
