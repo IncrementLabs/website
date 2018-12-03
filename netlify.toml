@@ -1,0 +1,5 @@
+[context.production]
+  publish = "public"
+  command = "yarn build"
+  [context.production.environment]
+    NODE_ENV = "production"
