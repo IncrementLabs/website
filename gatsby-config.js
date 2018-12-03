@@ -1,5 +1,13 @@
 module.exports = {
   plugins: [{
+    resolve: 'gatsby-plugin-compile-es6-packages',
+    options: {
+      modules: [
+        '@akiolabs/app',
+        '@akiolabs/ui',
+      ],
+    },
+  }, {
     resolve: 'gatsby-plugin-drift',
     options: {appId: process.env.DRIFT_ID},
   }, {
