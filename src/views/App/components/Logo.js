@@ -7,10 +7,10 @@ import {colors} from 'styles';
 // Components
 import {Styled} from 'components';
 
-const Title = Styled.H2.extend`
-  font-weight: 600;
+const Title = Styled.H4.extend`
   color: ${colors.purple5};
-  letter-spacing: 2;
+  font-weight: 600;
+  letter-spacing: 1.5;
 `;
 
 const Logo = () => (

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@akiolabs/app@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@akiolabs/app/-/app-0.0.3.tgz#2fb485caf9ef30acf41be0f3f5363ea5f9e73412"
-  integrity sha512-pP1paFXLEJyvvkEbgoOLYksmgUay5Fp6aEzf9SigmjWJF2zBXrnYMmBoHoGz77wSg/+vLHWKzj2BU3KAqaKJZw==
+"@akiolabs/app@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@akiolabs/app/-/app-0.0.4.tgz#0aa7190bbe228e50fcbfbb74214017c370aa8475"
+  integrity sha512-8zpfVfijzVdnxS6cnPg8GxYB5IieJHGrV95RiMzFgdu0l3l7GDRBDZBAYpwkJ4mIjnLsq3Bhic6Jk2dNRnIsgQ==
   dependencies:
     "@akiolabs/ui" "0.0.2"
     apollo-cache-inmemory "1.1.11"
@@ -33,10 +33,10 @@
     react-x "2.6.0"
     styled-x "1.4.0"
 
-"@akiolabs/ui@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@akiolabs/ui/-/ui-0.0.3.tgz#cce0da17280d1caadaa49fbecaae05a4df33477e"
-  integrity sha512-OrcyVp0O14GkaO9Pue/Fzf7c9X94aATMiI+VCioQNDN+7R4cKYgUPFiFziaSzBAUAq6Y+ultnoEPyly8I7Q4Ug==
+"@akiolabs/ui@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@akiolabs/ui/-/ui-0.0.4.tgz#c5e2279bb38f3f9a24c969cd42f078a3d6668d39"
+  integrity sha512-nJ3yW1oi01HC4MN7wJtNYH8Rg+0mFWz2u+nNM482en67Sd7C0UdT1U8/dZsy+04ysXdkUeYNZNNs+fO9dvrAOA==
   dependencies:
     formik "0.11.11"
     prop-types "15.6.0"
