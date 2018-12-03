@@ -22,7 +22,7 @@ const SubmitButton = styled.button`
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(194,194,194,0.5);
 
-  width: 180px;
+  width: 100px;
   margin-left: 10px;
   background-color: ${colors.purple5};
   border-width: 0px;
@@ -35,9 +35,7 @@ const SubmitText = Styled.H6.extend`
 `;
 
 const RequestForm = () => (
-  <NetlifyForm
-    name={'email'}
-    action={'/contact/success'}>
+  <NetlifyForm name={'hire'}>
     <TextInput
       required
       keyboardType={'email-address'}
@@ -45,7 +43,7 @@ const RequestForm = () => (
       placeholder={'Enter your work email'}
     />
     <SubmitButton type={'submit'}>
-      <SubmitText>REQUEST DEMO</SubmitText>
+      <SubmitText>HIRE US</SubmitText>
     </SubmitButton>
   </NetlifyForm>
 );
