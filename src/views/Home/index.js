@@ -5,7 +5,8 @@ import React from 'react';
 import {colors} from 'styles';
 
 // Components
-import {Footer, Header, Page, Styled} from 'components';
+import {Footer, Header, Styled} from 'components';
+import {Page} from 'views/App/components';
 import {HeroSection, JoinSection, ProductFeature, ProductSection, ProductsSection} from './components';
 
 // Assets

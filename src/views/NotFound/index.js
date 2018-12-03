@@ -2,7 +2,8 @@
 import React from 'react';
 
 // Components
-import {Page, Redirect} from 'components';
+import {Redirect} from 'components';
+import {Page} from 'views/App/components';
 
 const NotFoundPage = () => (
   <Page>
