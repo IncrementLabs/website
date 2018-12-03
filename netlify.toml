@@ -2,4 +2,5 @@
   publish = "public"
   command = "yarn build"
   [context.production.environment]
+    GATSBY_APP_ENV = "production"
     NODE_ENV = "production"
