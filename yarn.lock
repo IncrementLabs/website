@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@akiolabs/app@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@akiolabs/app/-/app-0.0.2.tgz#0f9d1f29e297166553159022ce8d4f9a758cb6f7"
-  integrity sha512-8C71TnYWwuLypEtOsApa48XK+yeDFNlCmTJAa+fHjTAk5uCQxmN/8gKhxws2TRaDSXvWHpDVq444g2EG8eVPYQ==
+"@akiolabs/app@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@akiolabs/app/-/app-0.0.3.tgz#2fb485caf9ef30acf41be0f3f5363ea5f9e73412"
+  integrity sha512-pP1paFXLEJyvvkEbgoOLYksmgUay5Fp6aEzf9SigmjWJF2zBXrnYMmBoHoGz77wSg/+vLHWKzj2BU3KAqaKJZw==
   dependencies:
     "@akiolabs/ui" "0.0.2"
     apollo-cache-inmemory "1.1.11"
@@ -22,6 +22,21 @@
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@akiolabs/ui/-/ui-0.0.2.tgz#9ab2e55fb7d085dbc4c0b8a51594493bfb9bbaaa"
   integrity sha512-rSEvccA4yAEuXE8YiUzah+VJl+JdScqA2Pdo1gs2dWk9+wr14dHXAqZFhsQuvdhebIW1Gey2ZgT1Mn/a/yAT3Q==
+  dependencies:
+    formik "0.11.11"
+    prop-types "15.6.0"
+    react "16.4.1"
+    react-apollo "2.1.11"
+    react-dom "16.4.1"
+    react-modal "3.5.1"
+    react-virtualized "9.20.1"
+    react-x "2.6.0"
+    styled-x "1.4.0"
+
+"@akiolabs/ui@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@akiolabs/ui/-/ui-0.0.3.tgz#cce0da17280d1caadaa49fbecaae05a4df33477e"
+  integrity sha512-OrcyVp0O14GkaO9Pue/Fzf7c9X94aATMiI+VCioQNDN+7R4cKYgUPFiFziaSzBAUAq6Y+ultnoEPyly8I7Q4Ug==
   dependencies:
     formik "0.11.11"
     prop-types "15.6.0"

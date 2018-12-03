@@ -21,7 +21,7 @@ const Italic = Styled.Text.extend`
 const HomePage = () => (
   <Page>
     <HeroSection>
-      <Header showLinks />
+      <Header />
     </HeroSection>
     <ProductsSection />
     <ProductSection

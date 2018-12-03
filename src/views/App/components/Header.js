@@ -33,18 +33,11 @@ const Text = Styled.H7.extend`
   color: ${colors.black0};
 `;
 
-const Header = ({showLinks}) => (
+const Header = () => (
   <Container>
     <Content>
       <Links>
         <Link to={'/'}><Logo /></Link>
-        {showLinks && (
-          <React.Fragment>
-            <Link to={'/#profiles'}><Text>Profiles</Text></Link>
-            <Link to={'/#insights'}><Text>Insights</Text></Link>
-            <Link to={'/#api'}><Text>API</Text></Link>
-          </React.Fragment>
-        )}
       </Links>
     </Content>
   </Container>
