@@ -7,7 +7,7 @@ import {colors} from 'styles';
 // Components
 import {Styled} from 'components';
 import {Footer, Header, Page} from 'views/App/components';
-import {HeroSection, JoinSection, ProductFeature, ProductSection, ProductsSection} from './components';
+import {HeroSection, ProductFeature, ProductSection, ProductsSection} from './components';
 
 // Assets
 import Profile from './assets/profile.png';
@@ -93,8 +93,7 @@ const HomePage = () => (
         )}
       />
     </ProductSection>
-    <JoinSection />
-    <Footer showLinks />
+    <Footer />
   </Page>
 );
 

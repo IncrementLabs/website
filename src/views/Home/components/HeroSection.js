@@ -8,7 +8,6 @@ import {colors} from 'styles';
 // Components
 import {Styled} from 'components';
 import RequestForm from './RequestForm';
-import SupportedBy from './SupportedBy';
 
 const Container = Styled.View.extend`
   align-items: center;
@@ -43,10 +42,6 @@ const Actions = Styled.View.extend`
   margin-top: 30px;
 `;
 
-const Extra = Styled.View.extend`
-  margin-top: 80px;
-`;
-
 const Circle = Styled.View.extend`
   margin-top: -120px;
   margin-left: 35px;
@@ -73,9 +68,6 @@ const HeroSection = ({history, children}) => (
         <Actions>
           <RequestForm />
         </Actions>
-        <Extra>
-          <SupportedBy />
-        </Extra>
       </Info>
       <Circle />
     </Content>

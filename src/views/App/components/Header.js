@@ -1,9 +1,6 @@
 // Libraries
 import React from 'react';
 
-// App
-import {colors} from 'styles';
-
 // Components
 import {Link, Styled} from 'components';
 import Logo from './Logo';
@@ -25,12 +22,6 @@ const Content = Styled.View.extend`
 const Links = Styled.View.extend`
   flex-direction: row;
   align-items: center;
-`;
-
-const Text = Styled.H7.extend`
-  margin-left: 20px;
-  font-weight: 400;
-  color: ${colors.black0};
 `;
 
 const Header = () => (
