@@ -13,7 +13,6 @@ const Container = Styled.View.extend`
 `;
 
 const Content = Styled.View.extend`
-  margin-top: 80px;
   width: 1120px;
 `;
 

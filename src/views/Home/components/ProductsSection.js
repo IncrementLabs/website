@@ -9,9 +9,9 @@ import {Styled} from 'components';
 import ProductSummary from './ProductSummary';
 
 // Assets
-import Avatar from '../assets/avatar.png';
-import Chart from '../assets/chart.png';
-import Gears from '../assets/gears.png';
+import Users from '../assets/users.png';
+import Web from '../assets/web.png';
+import Mobile from '../assets/mobile.png';
 
 const Container = Styled.View.extend`
   flex-direction: row;
@@ -31,7 +31,7 @@ const ProductsSection = () => (
         'We use the latest tools including Sketch and Invision to create ' +
         'high-quality, responsive applications.'
       )}
-      image={Avatar}
+      image={Users}
     />
     <ProductSummary
       title={'Web Development'}
@@ -39,7 +39,7 @@ const ProductsSection = () => (
         'We build fast, responsive websites that look and work great on ' +
         'any device. Our applications are used by thousands of users.'
       )}
-      image={Chart}
+      image={Web}
     />
     <ProductSummary
       title={'Mobile Development'}
@@ -47,7 +47,7 @@ const ProductsSection = () => (
         'Build cross-platform apps easily using our proven development ' +
         'framework. We\'ll also help deploy your app to the app stores.'
       )}
-      image={Gears}
+      image={Mobile}
     />
   </Container>
 );
