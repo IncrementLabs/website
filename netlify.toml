@@ -2,5 +2,6 @@
   publish = "public"
   command = "yarn build"
   [context.production.environment]
+    DRIFT_ID = "i54xw64t28dm"
     GATSBY_APP_ENV = "production"
     NODE_ENV = "production"
