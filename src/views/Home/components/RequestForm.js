@@ -22,7 +22,7 @@ const SubmitButton = styled.button`
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(194,194,194,0.5);
 
-  width: 100px;
+  width: 140px;
   margin-left: 10px;
   background-color: ${colors.purple5};
   border-width: 0px;
@@ -43,7 +43,7 @@ const RequestForm = () => (
       placeholder={'Enter your work email'}
     />
     <SubmitButton type={'submit'}>
-      <SubmitText>HIRE US</SubmitText>
+      <SubmitText>GET STARTED</SubmitText>
     </SubmitButton>
   </NetlifyForm>
 );

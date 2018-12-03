@@ -47,7 +47,7 @@ Page.propTypes = {
 };
 
 Page.defaultProps = {
-  title: 'Increment Labs',
+  title: 'Increment Labs - Web and Mobile App Development',
 
   // TODO
   description: '',

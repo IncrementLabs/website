@@ -28,24 +28,20 @@ const HomePage = () => (
       id={'profiles'}
       align={'left'}
       color={colors.white4}
-      title={'Know Your Users'}
+      title={'Experience'}
       link={null}
       image={<img alt={'User Profile'} src={Profile} style={{width: 400, marginRight: 140}} />}>
       <ProductFeature
-        title={'Find out what you don’t know'}
+        title={'From funded startups to proven enterprises'}
         subtitle={(
-          <React.Fragment>
-            {'Learn who your users truly are. '}
-            <Italic>Risk Score, Is Bot, Dump Probability, KYC Verified,</Italic>
-            {' and more.'}
-          </React.Fragment>
+          'Our team has experience developing custom mobile and web apps that scale.'
         )}
       />
       <ProductFeature
-        title={'Personalize your product experience'}
+        title={'We use the latest technologies'}
         subtitle={(
-          'Enrich the profiles with off-chain metadata such as location ' +
-          'and social links. Personalize your app with users’ histories.'
+          'Our clients expect apps built using modern standards. We use ' +
+          'battle-tested technologies that last.'
         )}
       />
     </ProductSection>
@@ -53,43 +49,21 @@ const HomePage = () => (
       id={'insights'}
       align={'right'}
       color={colors.white16}
-      title={'Easily Gather Insights'}
+      title={'Process'}
       link={null}
       image={<img alt={'Dashboards'} src={Insights} style={{width: 625, marginLeft: 15}} />}>
       <ProductFeature
-        title={'Deep dive into every smart contract, token, and project'}
+        title={'From product discovery to final launch'}
         subtitle={(
-          'Uncover every detail such as user adoption, liquidity, or growth ' +
-          'potential so you can make the best decisions.'
+          'Our team will work with you to fully understand your company\'s ' +
+          'goals. This drives all decisions from start to finish.'
         )}
       />
       <ProductFeature
-        title={'Flexibly fit with minimal engineering effort'}
+        title={'Design and development sprints'}
         subtitle={(
-          'Use clean data from events and internal function calls. ' +
-          'Push anywhere into your existing tech stack. No ABIs necessary.'
-        )}
-      />
-    </ProductSection>
-    <ProductSection
-      id={'api'}
-      align={'left'}
-      color={colors.white4}
-      title={'Build Custom Solutions'}
-      link={null}
-      image={<img alt={'Custom Solutions'} src={Custom} style={{width: 566, marginRight: 54}} />}>
-      <ProductFeature
-        title={'Power features that seemed impossible'}
-        subtitle={(
-          'Use APIs that simplify the blockchain. Improve UX with ' +
-          'real-time notifications, webhooks, and all blockchain data.'
-        )}
-      />
-      <ProductFeature
-        title={'Focus on building what’s important'}
-        subtitle={(
-          'Develop trading signals, dashboards, or risk models using ' +
-          'Akio. Deploy on your own or host and scale with us too.'
+          'We iterate on the product quickly and often so that problems are ' +
+          'fixed early on in the product lifecycle.'
         )}
       />
     </ProductSection>

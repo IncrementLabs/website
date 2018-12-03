@@ -26,26 +26,26 @@ const Container = Styled.View.extend`
 const ProductsSection = () => (
   <Container>
     <ProductSummary
-      title={'Know Your Users'}
+      title={'UI / UX Design'}
       subtitle={(
-        'Automatically turn wallet addresses into full profiles and find ' +
-        'out what you don’t know. Build a personalized product users will love.'
+        'We use the latest tools including Sketch and Invision to create ' +
+        'high-quality, responsive applications.'
       )}
       image={Avatar}
     />
     <ProductSummary
-      title={'Easily Gather Insights'}
+      title={'Web Development'}
       subtitle={(
-        'Answer any question by deep diving into every smart contract, ' +
-        'token, and project. Drop into your infrastructure without wasting time.'
+        'We build fast, responsive websites that look and work great on ' +
+        'any device. Our applications are used by thousands of users.'
       )}
       image={Chart}
     />
     <ProductSummary
-      title={'Build Custom Solutions'}
+      title={'Mobile Development'}
       subtitle={(
-        'Power features that seemed impossible to build before. ' +
-        'Use data to create trading signals, APIs, and innovative in-app features.'
+        'Build cross-platform apps easily using our proven development ' +
+        'framework. We\'ll also help deploy your app to the app stores.'
       )}
       image={Gears}
     />

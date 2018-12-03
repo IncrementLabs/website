@@ -32,7 +32,7 @@ const Title = Styled.H1.extend`
 
 const Subtitle = Styled.H4.extend`
   margin-top: 20px;
-  width: 500px;
+  width: 600px;
   font-size: 20px;
   color: ${colors.black3};
 `;
@@ -57,12 +57,12 @@ const HeroSection = ({history, children}) => (
     <Content>
       <Info>
         <Title>
-          {`Easiest way to get insights from blockchain data`}
+          {`Grow your business with a powerful web and mobile app`}
         </Title>
         <Subtitle>
           {(
-            `Akio helps you understand users, gather insights, and build ` +
-            `custom solutions so you can grow your business.`
+            `Increment Labs is a design and development consultancy that ` +
+            `powers your business with custom web and mobile apps.`
           )}
         </Subtitle>
         <Actions>
