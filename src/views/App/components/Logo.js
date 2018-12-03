@@ -14,7 +14,7 @@ const Title = Styled.H2.extend`
 `;
 
 const Logo = () => (
-  <Title>Increment</Title>
+  <Title>Increment Labs</Title>
 );
 
 export default Logo;

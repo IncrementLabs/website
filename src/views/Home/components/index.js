@@ -1,5 +1,4 @@
 export {default as ComingSoonSection} from './ComingSoonSection';
-export {default as CustomersSection} from './CustomersSection';
 export {default as GetStartedSection} from './GetStartedSection';
 export {default as HeroSection} from './HeroSection';
 export {default as ProductFeature} from './ProductFeature';
