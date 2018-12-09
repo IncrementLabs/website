@@ -4,4 +4,5 @@
   [context.production.environment]
     DRIFT_ID = "i54xw64t28dm"
     GATSBY_APP_ENV = "production"
+    GOOGLE_ANALYTICS_ID = "UA-130669424-1"
     NODE_ENV = "production"
